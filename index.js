@@ -1,7 +1,8 @@
- //document.getElementById("count-el").innerHTML = 5;
-   
- let count = 0;
- console.log(count);
+let count =0 ;
 
- let myAge = 20;
- console.log(myAge);
+function increment() {
+    count = count + 1;
+    document.getElementById("count-el").innerHTML = count;
+}
+
+increment();
